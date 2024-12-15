@@ -1,0 +1,29 @@
+{
+  "name": "appsocialmedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+     "start": "node server.js",
+     "dev": "nodemon server.js",
+     "cypress:open": "cypress open",
+     "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "cypress": "^13.16.1",
+    "nodemon": "^3.1.7"
+  }
+}
