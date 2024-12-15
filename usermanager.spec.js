@@ -30,8 +30,6 @@ describe('UserManager Class', () => {
 
 
 
-
-
   test('should log in a user with correct credentials', () => {
     userManager.createUser('testUser', 'password123');
     expect(userManager.login('testUser', 'password123')).toBe(true);

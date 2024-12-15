@@ -42,8 +42,6 @@ describe('User Class with ORM functionality', () => {
     const invalidJson = { username: 'testUser' }; // Missing password
     expect(() => User.fromJSON(invalidJson)).toThrowError('Invalid JSON object for User');
   });
-
-
 });
 
 
